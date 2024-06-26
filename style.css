@@ -326,4 +326,23 @@ label.hide.show{
     }
     form {
         height: min-content;
+    }
+    label.label {
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+
+    #title {
+        padding-bottom: 2%;
+    }
+    #first-name,
+    #last-name,
+    #email,
+    #query,
+    #message,
+    #consent {
+        margin: 0;
+        padding: 0;
+    }
 }
