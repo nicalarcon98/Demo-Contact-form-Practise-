@@ -288,6 +288,7 @@ label.hide.show{
 
 @media (max-width: 600px){
     #wrapper {
+        height: 100dvh;
         justify-content: center;
     }
 
