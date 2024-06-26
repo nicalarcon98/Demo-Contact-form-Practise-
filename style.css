@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Karla-Italic';
-    src: url(/assets/fonts/Karla-VariableFont_wght.ttf), url(/assets/fonts/Karla-Italic-VariableFont_wght.ttf);
+    src: url(https://nicalarcon98.github.io/Demo-Contact-form-Practise-/assets/fonts/Karla-VariableFont_wght.ttf), url(https://nicalarcon98.github.io/Demo-Contact-form-Practise-/assets/fonts/Karla-Italic-VariableFont_wght.ttf);
 }
 @keyframes popup {
     0%{
