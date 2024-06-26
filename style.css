@@ -301,6 +301,7 @@ label.hide.show{
     #container {
         width: 90%;
         height: 90%;
+        justify-content: space-around;
     }
 
     #sent{
