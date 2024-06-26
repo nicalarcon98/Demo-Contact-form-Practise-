@@ -69,7 +69,7 @@ function animation(){
     document.getElementById('sent').classList.add('animation')
 };
 
-form.addEventListener('submit',e => {
+/* form.addEventListener('submit',e => {
    e.preventDefault();
    document.getElementById('sent').classList.remove('animation')
    const validation = validateInput();
@@ -77,7 +77,16 @@ form.addEventListener('submit',e => {
         animation();
    }
    console.log(validation);
-});
+}); */
+
+function onClick(){
+   document.getElementById('sent').classList.remove('animation')
+   const validation = validateInput();
+   if (validation === 7) {
+        animation();
+   }
+   console.log(validation);
+}
 
 function removePop(){
     document.getElementById('sent').classList.remove('popout');

@@ -24,7 +24,7 @@
         <h1>Contact Us</h1>
       </div>
       <div id="form-container">
-        <form action="/" id="form">
+        <form id="form"> <!-- action="/" -->
           <div id="name-fields">
             <div id="first-name">
               <label class="label" for="name1">First Name <span>*</span></label>
@@ -71,7 +71,7 @@
           </div>
           <label id="spLabel" for="consent" class="hide">To submit this form, please consent to being contacted</label>
           <div id="submit">
-            <input type="submit" value="Submit" >
+            <input type="button" value="Submit" onclick="onClick()">
           </div>
         </form>
       </div>
