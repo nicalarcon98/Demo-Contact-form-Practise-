@@ -71,6 +71,7 @@ function animation(){
 
 form.addEventListener('submit',e => {
    e.preventDefault();
+   document.getElementById('sent').classList.remove('animation')
    const validation = validateInput();
    if (validation === 7) {
         animation();
@@ -78,4 +79,13 @@ form.addEventListener('submit',e => {
    console.log(validation);
 });
 
+function removePop(){
+    document.getElementById('sent').classList.remove('popout');
+}
+
+function popout(){
+    document.getElementById('sent').classList.add('popout');
+    setTimeout(removePop, 1000);
+    document.getElementById('sent').classList.remove('animation');
+}
 
