@@ -295,13 +295,12 @@ label.hide.show{
 @media (max-width: 600px){
     #wrapper {
         height: 100%;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #container {
         width: 90%;
-        height: 95%;
-        justify-content: space-between;
+        height: 80%;
     }
 
     #sent{
@@ -331,7 +330,7 @@ label.hide.show{
     }
 
     #title {
-        padding-bottom: 2%;
+        padding-bottom: 6%;
     }
     form {
         height: max-content;
